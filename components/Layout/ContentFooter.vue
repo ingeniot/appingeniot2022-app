@@ -4,17 +4,17 @@
       <ul class="nav">
         <li class="nav-item">
           <a
-            href="https://ioticos.org"
+            href="https://ingeniot.com.ar"
             target="_blank"
             rel="noopener"
             class="nav-link"
           >
-            IoTicos.org
+            ingenIoT
           </a>
         </li>
         <li class="nav-item">
           <a
-            href="https://ioticos.org"
+            href="https://ingniot.con.ar"
             target="_blank"
             rel="noopener"
             class="nav-link"
@@ -24,25 +24,24 @@
         </li>
         <li class="nav-item">
           <a
-            href="hhttps://ioticos.org"
+            href="hhttps://ingeniot.com.ar"
             target="_blank"
             rel="noopener"
             class="nav-link"
           >
-            Blog
+            Contact
           </a>
         </li>
       </ul>
       <div class="copyright">
-        &copy; {{ year }}, made with <i class="tim-icons icon-heart-2"></i> by
+        &copy; {{ year }}, made by
         
         <a
-          href="https://ioticos.org"
+          href="https://ingeniot.com.ar"
           target="_blank"
           rel="noopener"
-          >IoTicos</a
+          >IngenIoT</a
         >
-        for a better web.
       </div>
     </div>
   </footer>
