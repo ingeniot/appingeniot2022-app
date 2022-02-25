@@ -3,7 +3,7 @@
     <div class="sidebar-wrapper" ref="sidebarScrollArea">
       <div class="logo">
         <a href="https://ingeniot.com.ar" class="simple-text logo-mini">
-          <img :src="ingeniot.png" alt="app-logo" />
+         <img src="../../static/ingeniot.png" alt="app-logo" />
         </a>
         <a href="https://ingeniot.com.ar" class="simple-text logo-normal">
           {{ title }}
