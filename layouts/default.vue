@@ -10,9 +10,9 @@
       <template slot-scope="props" slot="links">
         <sidebar-item
           :link="{
-            name: 'Dashboard',
+            name: 'Home',
             icon: 'tim-icons icon-laptop',
-            path: '/dashboard'
+            path: '/home'
           }"
         >
         </sidebar-item>
@@ -37,9 +37,9 @@
 
         <sidebar-item
           :link="{
-            name: 'Templates',
+            name: 'Dashboards',
             icon: 'tim-icons icon-atom',
-            path: '/templates'
+            path: 'dashboards'
           }"
         >
         </sidebar-item>
