@@ -99,7 +99,7 @@ export default {
             //set auth object in localStorage - Grabamos el token en localStorage
             localStorage.setItem('auth', JSON.stringify(auth));
 
-            $nuxt.$router.push('/dashboard');
+            $nuxt.$router.push('/home');
 
             return;
           }
