@@ -3,7 +3,7 @@
     <div class="col-lg-4 col-md-6 ml-auto mr-auto">
       <card class="card-login card-white">
         <template slot="header">
-          <img src="ingeniot.png" alt="" />
+          <img src="ingeniot.png" class="mx-auto d-block" alt="" />
           <h1 class="card-title">IngenIoT</h1>
         </template>
 
@@ -32,6 +32,14 @@
             addon-left-icon="tim-icons icon-lock-circle"
           >
           </base-input>
+          <base-input
+            name="password_confirm"
+            v-model="user.password_confirm"
+            type="password"
+            placeholder="Confirm"
+            addon-left-icon="tim-icons icon-lock-circle"
+          >
+          </base-input>          
         </div>
 
         <div slot="footer">
@@ -71,13 +79,14 @@ export default {
       user: {
         name: "",
         email: "",
-        password: ""
+        password: "",
+        password_confirm: "",
       }
     };
   },
   methods: {
     register() {
-
+      if(this.user.password == this.user.password_confirm ) {  
       this.$axios
         .post("/register", this.user)
         .then(res => {
@@ -123,9 +132,18 @@ export default {
 
 
         });
+      }
+    else{
+            this.$notify({
+              type: "danger",
+              icon: "tim-icons icon-alert-circle-exc",
+              message: "Those password didn't match. Try again."
+            });
 
-
+            return;
     }
+    }
+    
   }
 };
 </script>

@@ -3,7 +3,7 @@
     <div class="col-lg-4 col-md-6 ml-auto mr-auto">
       <card class="card-login card-white">
         <template slot="header">
-          <img src="ingeniot.png" alt="" />
+          <img src="ingeniot.png" class="mx-auto d-block" alt="" />
           <h1 class="card-title">IngenIoT</h1>
         </template>
 
