@@ -39,7 +39,7 @@
           :link="{
             name: 'Dashboards',
             icon: 'tim-icons icon-atom',
-            path: 'dashboards'
+            path: '/dashboards'
           }"
         >
         </sidebar-item>
