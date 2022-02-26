@@ -21,7 +21,7 @@ export default {
       { rel: 'icon', type: 'image/png', size: '32x32', href: '/favicon-32x32.png'},
       { rel: 'icon', type: 'image/png', size: "16x16", href: '/favicon-16x16.png'},
       { rel: 'manifest', href: '/site.webmanifest'},
-      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color='#5bbad5'}
+      //{ rel: 'mask-icon', href: '/safari-pinned-tab.svg', color='#5bbad5'}
     ],
     bodyAttrs: {
       class: '' // Add `white-content` class here to enable "white" mode.
