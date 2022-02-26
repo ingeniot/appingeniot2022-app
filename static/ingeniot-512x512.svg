@@ -1,0 +1,35 @@
+<!--<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The svg element</h1>
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="25 0 70 70" width="512" height="512">
+ <line x1="32" y1="20" x2="88" y2="20" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="50" y1="40" x2="74" y2="40" style="stroke:rgb(0,0,0);stroke-width:2" />
+   <line x1="32" y1="20" x2="46" y2="40" style="stroke:rgb(0,0,0);stroke-width:2" />
+   <line x1="60" y1="20" x2="46" y2="40" style="stroke:rgb(0,0,0);stroke-width:2" />
+   <line x1="60" y1="20" x2="74" y2="40" style="stroke:rgb(0,0,0);stroke-width:2" />
+   <line x1="74" y1="40" x2="88" y2="20" style="stroke:rgb(0,0,0);stroke-width:2" />
+
+  <circle cx="32" cy="20" r="5" stroke="black" stroke-width="2" fill="white
+  " />
+       <circle cx="46" cy="40" r="5" stroke="black" stroke-width="2" fill="white
+  " />
+  <circle cx="60" cy="20" r="5" stroke="black" stroke-width="2" fill="white
+  " />
+  <circle cx="74" cy="40" r="5" stroke="black" stroke-width="2" fill="white
+  " />
+   <circle cx="88" cy="20" r="5" stroke="black" stroke-width="2" fill="white
+  " />
+
+
+
+<path d="M 50 55 C 50 55 60 40 70 55" style="fill: none; stroke: black; stroke-width: 3px;" />
+<path d="M 54 60 C 54 60 60 50 66 60" style="fill: none; stroke: black; stroke-width: 3px;" />
+<!--<text>IngenIoT</text>>
+
+
+
+  Sorry, your browser does not support inline SVG.-->
+</svg>
