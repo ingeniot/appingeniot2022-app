@@ -17,7 +17,7 @@ export default {
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css' },
-      { rel: 'icon', size: "180x180", href="/apple-touch-icon.png"},
+      //{ rel: 'icon', size: "180x180", href="/apple-touch-icon.png"},
       { rel: 'icon', type: 'image/png', size: '32x32', href: '/favicon-32x32.png'},
       { rel: 'icon', type: 'image/png', size: "16x16", href: '/favicon-16x16.png'},
       { rel: 'manifest', href: '/site.webmanifest'},
