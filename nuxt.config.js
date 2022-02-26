@@ -8,13 +8,21 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { name: "msapplication-TileColor", content: "#da532c" },
+      { name: "theme-color", content: "#ffffff" }
     ],
     link: [
       //{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800' },
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css' }
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css' },
+      { rel: 'apple-touch-icon', sizes: "180x180", href="/apple-touch-icon.png"},
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png'},
+      { rel: 'icon', type: 'image/png', sizes="16x16", href: '/favicon-16x16.png'},
+      { rel: 'manifest', href: '/site.webmanifest'},
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color='#5bbad5'}
+
     ],
     bodyAttrs: {
       class: '' // Add `white-content` class here to enable "white" mode.
@@ -55,6 +63,13 @@ export default {
     '@nuxtjs/axios',
     'nuxt-highcharts',
   ],
+  pwa:{
+    themeColor:'#17a2b8',
+    msTileColor:'#000000',
+    iconPaths:{
+      msTileImage:'img/icons/mstile-150x150.png'
+    }
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
